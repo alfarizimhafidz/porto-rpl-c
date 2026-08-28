@@ -165,6 +165,37 @@ nav {
     gap: 3rem;
 }
 
+#kontak h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.kontak-kami{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hubungi {
+    padding: 10rem;
+    justify-content: center;
+    margin-right: 25px;
+    font-size: 20px;
+}
+
+.map iframe {
+    border-radius: 25%;
+    padding: 0,2rem;
+    box-sizing: content-box;
+    background-color: antiquewhite;
+    border: 1px;
+    box-shadow: 0 10px 20px cadetblue;
+}
+
+.map {
+    padding: 5rem;
+}
+
+
 /* style di tampilan tablet&handphone */
 @media screen and (max-width: 954px) {
     nav {
